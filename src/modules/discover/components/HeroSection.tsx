@@ -124,7 +124,6 @@ const HeroSection: FC<HeroSectionProps> = () => {
               Trade stellar assets, bid in nebula auctions, and explore cosmic marketplaces —
               all in deep‑space retro style.
             </Text>
-
             <Button
               as={NextLink}
               href={LINKS.cw20Token("cosmic-exchange")}

@@ -87,26 +87,6 @@ const AboutAndromeda: FC<AboutAndromedaProps> = () => {
         At COSMIC NEXUS, we embrace this spirit of cosmic collision and evolution — blending retro pixel aesthetics with the limitless frontier of blockchain technology.
       </chakra.p>
 
-      <Link href={LINKS.cw20Token('stellar-exchange')} _hover={{ textDecoration: 'none' }}>
-        <Button
-          variant="retro"
-          colorScheme="cyan"
-          size="lg"
-          px={8}
-          py={6}
-          fontSize="14px"
-          fontFamily="'Press Start 2P', monospace"
-          textTransform="uppercase"
-          letterSpacing="2px"
-          as="span"
-          _hover={{
-            transform: "translateY(-4px)",
-            boxShadow: "0 0 25px rgba(0, 255, 255, 1), inset 3px 3px 0 rgba(255, 255, 255, 0.2), inset -3px -3px 0 rgba(0, 0, 0, 0.4), 0 8px 16px rgba(0, 0, 0, 0.7)",
-          }}
-        >
-          Enter the Nexus
-        </Button>
-      </Link>
     </Flex>
   );
 };
