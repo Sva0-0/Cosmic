@@ -18,7 +18,7 @@ Cosmic-dAPP is a decentralized application (dApp) built on the Andromeda Protoco
 - **Modular Architecture**: Easy to extend and integrate additional features in the future.
 
 ## Embeddable Demo
-Experience Cosmic-dAPP in action! Check out the [Live Demo](https://cosmic-dapp.vercel.app/) for a hands-on demonstration of the dApp.
+Experience Cosmic-dAPP in action! Check out the [Live Demo](https://cosmic-kappa.vercel.app/) for a hands-on demonstration of the dApp.
 
 ## Future Scope
 - **Expanded Exchange Options**: Introducing additional trading pairs and liquidity pools.
