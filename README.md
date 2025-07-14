@@ -57,7 +57,7 @@ git clone https://github.com/yourusername/cosmic-dapp.git
 cd cosmic-dapp
 npm install
 npm run dev
+```
 Open your browser at http://localhost:3000 and connect your wallet to start swapping!
----
 
-*For more details, feel free to explore the repository and contribute to the project.*
+For more details, feel free to explore the repository and contribute to the project.*
