@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="spaceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#1a0a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#533483;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00ffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" fill="url(#spaceGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="30" cy="40" r="1" fill="#ffffff"/>
+  <circle cx="80" cy="20" r="1" fill="#00ffff"/>
+  <circle cx="150" cy="60" r="1" fill="#ffffff"/>
+  <circle cx="40" cy="120" r="1" fill="#ff00ff"/>
+  <circle cx="120" cy="80" r="1" fill="#ffff00"/>
+  <circle cx="180" cy="140" r="1" fill="#00ff00"/>
+  <circle cx="60" cy="180" r="1" fill="#ffffff"/>
+  <circle cx="140" cy="160" r="1" fill="#00ffff"/>
+  
+  <!-- Central Cosmic Nexus -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#00ffff" stroke-width="3"/>
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#ff00ff" stroke-width="2"/>
+  <circle cx="100" cy="100" r="20" fill="url(#starGlow)"/>
+  
+  <!-- Pixel Art Elements -->
+  <rect x="85" y="85" width="30" height="30" fill="none" stroke="#00ffff" stroke-width="2"/>
+  <rect x="90" y="90" width="20" height="20" fill="none" stroke="#ff00ff" stroke-width="1"/>
+  
+  <!-- Cosmic Text -->
+  <text x="100" y="170" text-anchor="middle" fill="#00ffff" font-family="monospace" font-size="12" font-weight="bold">
+    COSMIC NEXUS
+  </text>
+</svg>

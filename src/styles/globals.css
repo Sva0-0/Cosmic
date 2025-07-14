@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #000;
+  color: #00ffff;
+  overflow-x: hidden;
+}
+
+/* GIF background overlay for better text readability */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00ffff 0%, #ff00ff 100%);
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff00ff 0%, #00ffff 100%);
+}
+
+/* Pixel art selection */
+::selection {
+  background: rgba(0, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+/* Retro pixel borders */
+.pixel-border {
+  border: 2px solid #00ffff;
+  box-shadow: 
+    inset 2px 2px 0 rgba(255, 255, 255, 0.1),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.3),
+    0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.pixel-border-glow {
+  border: 2px solid #00ffff;
+  box-shadow: 
+    0 0 10px rgba(0, 255, 255, 0.5),
+    0 0 20px rgba(0, 255, 255, 0.3),
+    0 0 30px rgba(0, 255, 255, 0.1);
+}
+
+/* Retro button styles */
+.retro-button {
+  background: linear-gradient(145deg, #1a1a2e, #16213e);
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 12px;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 
+    inset 2px 2px 0 rgba(255, 255, 255, 0.1),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.retro-button:hover {
+  background: linear-gradient(145deg, #16213e, #1a1a2e);
+  box-shadow: 
+    0 0 10px rgba(0, 255, 255, 0.5),
+    inset 2px 2px 0 rgba(255, 255, 255, 0.1),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.retro-button:active {
+  transform: translateY(1px);
+  box-shadow: 
+    inset -2px -2px 0 rgba(255, 255, 255, 0.1),
+    inset 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Retro card styles */
+.retro-card {
+  background: rgba(26, 26, 46, 0.8);
+  border: 2px solid #00ffff;
+  border-radius: 0;
+  padding: 16px;
+  box-shadow: 
+    inset 2px 2px 0 rgba(255, 255, 255, 0.1),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.3),
+    0 4px 8px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+/* Cosmic text effects */
+.cosmic-text {
+  text-shadow: 
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 15px #00ffff;
+  animation: cosmic-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes cosmic-glow {
+  0% { text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff; }
+  100% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff; }
+}
+
+/* Pixel art loading animation */
+.pixel-loader {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(45deg, #00ffff, #ff00ff);
+  animation: pixel-spin 1s linear infinite;
+  image-rendering: pixelated;
+}
+
+@keyframes pixel-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Retro input styles */
+.retro-input {
+  background: rgba(26, 26, 46, 0.8);
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  font-family: 'Orbitron', monospace;
+  padding: 8px 12px;
+  outline: none;
+  box-shadow: 
+    inset 2px 2px 0 rgba(255, 255, 255, 0.1),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.retro-input:focus {
+  box-shadow: 
+    0 0 10px rgba(0, 255, 255, 0.5),
+    inset 2px 2px 0 rgba(255, 255, 255, 0.1),
+    inset -2px -2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Andromeda galaxy effect */
+.andromeda-bg {
+  background: radial-gradient(ellipse at center, rgba(83, 52, 131, 0.3) 0%, rgba(26, 26, 46, 0.8) 70%, rgba(10, 10, 10, 1) 100%);
+  position: relative;
+}
+
+.andromeda-bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><radialGradient id="galaxy"><stop offset="0%" stop-color="%23ffffff" stop-opacity="0.1"/><stop offset="100%" stop-color="%23ffffff" stop-opacity="0"/></radialGradient></defs><circle cx="50" cy="50" r="40" fill="url(%23galaxy)"/></svg>') no-repeat center;
+  background-size: 200px 200px;
+  opacity: 0.3;
+  animation: galaxy-rotate 20s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes galaxy-rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: #00ffff;
+    background: #000;
+  }
+  body.gif-loaded {
+    background: url('https://i.gifer.com/ExHZ.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+}

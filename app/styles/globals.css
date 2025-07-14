@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700&display=swap');
+
+html, body {
+  background: #000 !important;
+  color: #fff !important;
+  font-family: 'Orbitron', monospace, monospace, sans-serif !important;
+  min-height: 100vh;
+  background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZtOGlrYm1mYmpvbWxmb3U2c2p4YTB5YTA5N3F3czloc281ZWJkZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4ydWTcMBjimLbT1CHi/giphy.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', monospace, monospace, sans-serif !important;
+  color: #fff !important;
+  text-shadow: 2px 2px 0 #111, 0 0 8px #fff;
+  letter-spacing: 2px;
+}
+
+button, .chakra-button, .retro-btn {
+  font-family: 'Press Start 2P', monospace, monospace, sans-serif !important;
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 0 2px #fff, 0 0 8px #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+button:hover, .chakra-button:hover, .retro-btn:hover {
+  background: #fff !important;
+  color: #000 !important;
+  box-shadow: 0 0 0 4px #fff, 0 0 16px #fff;
+}
+
+input, .chakra-input, textarea, .chakra-textarea {
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+  border-radius: 0 !important;
+  font-family: 'Orbitron', monospace, monospace, sans-serif !important;
+}
+
+.card, .chakra-card, .retro-card, .chakra-modal__content {
+  background: #111 !important;
+  border: 2px solid #fff !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 0 2px #fff, 0 0 8px #fff;
+}
+
+.chakra-modal__overlay {
+  background: rgba(0,0,0,0.95) !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #111 !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff !important;
+}
+
+.pixel-border {
+  border: 4px solid #fff !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 0 2px #fff, 0 0 8px #fff;
+}
+
+[class*="chakra-"], * {
+  --chakra-colors-cyan-800: #fff !important;
+  --chakra-colors-magenta-800: #fff !important;
+  --chakra-colors-cyan-600: #fff !important;
+  --chakra-colors-gray-900: #fff !important;
+  --chakra-colors-gray-100: #111 !important;
+  --chakra-colors-blue-50: #111 !important;
+  --chakra-colors-blackAlpha-600: #fff !important;
+  --chakra-colors-purple-400: #fff !important;
+  --chakra-colors-purple-500: #fff !important;
+} 
