@@ -53,7 +53,7 @@ Experience Cosmic-dAPP in action! Check out the [Live Demo](https://cosmic-kappa
 Clone the repository, install dependencies, and run the development server:
 
 ```bash
-git clone https://github.com/yourusername/cosmic-dapp.git
+git clone https://github.com/Sva0-0/cosmic-dapp.git
 cd cosmic-dapp
 npm install
 npm run dev
