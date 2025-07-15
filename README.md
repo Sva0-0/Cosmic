@@ -4,7 +4,7 @@
 **Cosmic-dAPP**
 
 ## About Me
-- name: Adhithiya sv
+- Name: Adhithiya sv
 - Blockchain enthusiast and developer
 - Passionate about building open and user-friendly decentralized apps
 - Interested in DeFi and blockchain usability
